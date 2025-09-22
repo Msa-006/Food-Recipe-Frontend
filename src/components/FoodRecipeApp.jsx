@@ -5,42 +5,42 @@ import { Search, Filter, ChevronLeft, ChevronRight } from "lucide-react";
 
 const localRecipes = [
   // Indian Dishes
-  { id: "L1", name: "Chicken Biryani", category: "Main Course", image: "/itm/1.jpg", description: "Aromatic rice dish with spices and chicken." },
-  { id: "L2", name: "Paneer Butter Masala", category: "Main Course", image: "/itm/2.jpg", description: "Creamy tomato-based paneer curry." },
-  { id: "L3", name: "Gulab Jamun", category: "Dessert", image: "/itm/3.jpg", description: "Sweet fried dumplings soaked in sugar syrup." },
-  { id: "L4", name: "Vada Pav", category: "Snacks", image: "/itm/4.jpg", description: "Mumbai-style spicy potato fritter in a bun." },
-  { id: "L5", name: "Butter Chicken", category: "Main Course", image: "/itm/5.jpg", description: "Delicious creamy butter chicken curry." },
-  { id: "L6", name: "Dhokla", category: "Snacks", image: "/itm/6.jpg", description: "Steamed savory cake made from rice and chickpea flour." },
-  { id: "L7", name: "Kheer", category: "Dessert", image: "/itm/7.jpg", description: "Indian rice pudding made with milk, rice, and cardamom." },
-  { id: "L8", name: "Masala Dosa", category: "Snacks", image: "/itm/8.jpg", description: "Crispy South Indian dosa stuffed with spiced potatoes." },
-  { id: "L9", name: "Pani Puri", category: "Snacks", image: "/itm/9.jpg", description: "Crispy puris filled with spicy and tangy water." },
-  { id: "L10", name: "Rajma Chawal", category: "Main Course", image: "/itm/10.jpg", description: "Kidney beans curry served with steamed rice." },
+  { id: "L1", name: "Chicken Biryani", category: "Main Course", image: "/FoodRecipe/itm/1.jpg", description: "Aromatic rice dish with spices and chicken." },
+  { id: "L2", name: "Paneer Butter Masala", category: "Main Course", image: "/FoodRecipe/itm/2.jpg", description: "Creamy tomato-based paneer curry." },
+  { id: "L3", name: "Gulab Jamun", category: "Dessert", image: "/FoodRecipe/itm/3.jpg", description: "Sweet fried dumplings soaked in sugar syrup." },
+  { id: "L4", name: "Vada Pav", category: "Snacks", image: "/FoodRecipe/itm/4.jpg", description: "Mumbai-style spicy potato fritter in a bun." },
+  { id: "L5", name: "Butter Chicken", category: "Main Course", image: "/FoodRecipe/itm/5.jpg", description: "Delicious creamy butter chicken curry." },
+  { id: "L6", name: "Dhokla", category: "Snacks", image: "/FoodRecipe/itm/6.jpg", description: "Steamed savory cake made from rice and chickpea flour." },
+  { id: "L7", name: "Kheer", category: "Dessert", image: "/FoodRecipe/itm/7.jpg", description: "Indian rice pudding made with milk, rice, and cardamom." },
+  { id: "L8", name: "Masala Dosa", category: "Snacks", image: "/FoodRecipe/itm/8.jpg", description: "Crispy South Indian dosa stuffed with spiced potatoes." },
+  { id: "L9", name: "Pani Puri", category: "Snacks", image: "/FoodRecipe/itm/9.jpg", description: "Crispy puris filled with spicy and tangy water." },
+  { id: "L10", name: "Rajma Chawal", category: "Main Course", image: "/FoodRecipe/itm/10.jpg", description: "Kidney beans curry served with steamed rice." },
 
   // Italian Dishes
-  { id: "L11", name: "Margherita Pizza", category: "Main Course", image:"/itm/11.jpg" , description: "Classic Italian pizza with tomato, mozzarella, and basil." },
-  { id: "L12", name: "Pasta Carbonara", category: "Main Course", image:"/itm/12.jpg", description: "Creamy pasta with eggs, cheese, pancetta, and pepper." },
-  { id: "L13", name: "Lasagna", category: "Main Course", image:"/itm/13.jpg", description: "Layered pasta with meat sauce, ricotta, and cheese." },
-  { id: "L14", name: "Tiramisu", category: "Dessert", image:"/itm/14.jpg", description: "Coffee-flavored Italian dessert with mascarpone and cocoa." },
-  { id: "L15", name: "Risotto", category: "Main Course", image: "/itm/15.jpg", description: "Creamy rice dish cooked with broth, butter, and cheese." },
-  { id: "L16", name: "Bruschetta", category: "Snacks", image: "/itm/16.jpg", description: "Grilled bread topped with tomatoes, basil, and garlic." },
-  { id: "L17", name: "Minestrone Soup", category: "Starter", image: "/itm/17.jpg", description: "Traditional Italian vegetable soup with pasta or rice." },
-  { id: "L18", name: "Blueberry Cheesecake", category: "Dessert", image: "/itm/18.jpg", description: "Creamy cheesecake layered with fresh blueberries and a buttery graham cracker crust." },
-  { id: "L19", name: "Panna Cotta", category: "Dessert", image: "/itm/19.jpg", description: "Creamy Italian dessert made with sweetened cream and gelatin." },
-  { id: "L20", name: "Caprese Salad", category: "Starter", image: "/itm/20.jpg", description: "Fresh salad with mozzarella, tomatoes, basil, and olive oil." },
+  { id: "L11", name: "Margherita Pizza", category: "Main Course", image:"/FoodRecipe/itm/11.jpg" , description: "Classic Italian pizza with tomato, mozzarella, and basil." },
+  { id: "L12", name: "Pasta Carbonara", category: "Main Course", image:"/FoodRecipe/itm/12.jpg", description: "Creamy pasta with eggs, cheese, pancetta, and pepper." },
+  { id: "L13", name: "Lasagna", category: "Main Course", image:"/FoodRecipe/itm/13.jpg", description: "Layered pasta with meat sauce, ricotta, and cheese." },
+  { id: "L14", name: "Tiramisu", category: "Dessert", image:"/FoodRecipe/itm/14.jpg", description: "Coffee-flavored Italian dessert with mascarpone and cocoa." },
+  { id: "L15", name: "Risotto", category: "Main Course", image: "/FoodRecipe/itm/15.jpg", description: "Creamy rice dish cooked with broth, butter, and cheese." },
+  { id: "L16", name: "Bruschetta", category: "Snacks", image: "/FoodRecipe/itm/16.jpg", description: "Grilled bread topped with tomatoes, basil, and garlic." },
+  { id: "L17", name: "Minestrone Soup", category: "Starter", image: "/FoodRecipe/itm/17.jpg", description: "Traditional Italian vegetable soup with pasta or rice." },
+  { id: "L18", name: "Blueberry Cheesecake", category: "Dessert", image: "/FoodRecipe/itm/18.jpg", description: "Creamy cheesecake layered with fresh blueberries and a buttery graham cracker crust." },
+  { id: "L19", name: "Panna Cotta", category: "Dessert", image: "/FoodRecipe/itm/19.jpg", description: "Creamy Italian dessert made with sweetened cream and gelatin." },
+  { id: "L20", name: "Caprese Salad", category: "Starter", image: "/FoodRecipe/itm/20.jpg", description: "Fresh salad with mozzarella, tomatoes, basil, and olive oil." },
 
   // Mexican Dishes
-  { id: "L21", name: "Tacos", category: "Main Course", image: "/itm/21.jpg" , description: "Corn tortillas filled with meat, veggies, and salsa." },
-  { id: "L22", name: "Chicken Drumstick", category: "Starter", image: "/itm/22.jpg" , description: "Juicy chicken drumsticks marinated in spices and grilled to crispy perfection." },
-  { id: "L23", name: "Enchiladas", category: "Main Course", image: "/itm/23.jpg" , description: "Rolled tortillas filled with meat and covered in sauce." },
-  { id: "L24", name: "Churros", category: "Dessert", image: "/itm/24.jpg" , description: "Fried dough pastries coated in cinnamon sugar." },
-  { id: "L25", name: "Quesadilla", category: "Snacks", image: "/itm/25.jpg" , description: "Grilled tortilla filled with melted cheese and veggies." },
+  { id: "L21", name: "Tacos", category: "Main Course", image: "/FoodRecipe/itm/21.jpg" , description: "Corn tortillas filled with meat, veggies, and salsa." },
+  { id: "L22", name: "Chicken Drumstick", category: "Starter", image: "/FoodRecipe/itm/22.jpg" , description: "Juicy chicken drumsticks marinated in spices and grilled to crispy perfection." },
+  { id: "L23", name: "Enchiladas", category: "Main Course", image: "/FoodRecipe/itm/23.jpg" , description: "Rolled tortillas filled with meat and covered in sauce." },
+  { id: "L24", name: "Churros", category: "Dessert", image: "/FoodRecipe/itm/24.jpg" , description: "Fried dough pastries coated in cinnamon sugar." },
+  { id: "L25", name: "Quesadilla", category: "Snacks", image: "/FoodRecipe/itm/25.jpg" , description: "Grilled tortilla filled with melted cheese and veggies." },
 
   // Mediterranean Dishes
-  { id: "L26", name: "Hummus", category: "Snacks", image: "/itm/26.jpg", description: "Chickpea dip blended with tahini, lemon, and garlic." },
-  { id: "L27", name: "Greek Salad", category: "Starter", image: "/itm/27.jpg", description: "Salad with cucumbers, tomatoes, olives, and feta cheese." },
-  { id: "L28", name: "Falafel", category: "Snacks", image: "/itm/28.jpg", description: "Crispy chickpea fritters served with tahini sauce." },
-  { id: "L29", name: "Shawarma", category: "Main Course", image: "/itm/29.jpg", description: "Grilled marinated meat wrapped in pita bread." },
-  { id: "L30", name: "Baklava", category: "Dessert", image: "/itm/30.jpg", description: "Layered pastry filled with nuts and sweet syrup." }
+  { id: "L26", name: "Hummus", category: "Snacks", image: "/FoodRecipe/itm/26.jpg", description: "Chickpea dip blended with tahini, lemon, and garlic." },
+  { id: "L27", name: "Greek Salad", category: "Starter", image: "/FoodRecipe/itm/27.jpg", description: "Salad with cucumbers, tomatoes, olives, and feta cheese." },
+  { id: "L28", name: "Falafel", category: "Snacks", image: "/FoodRecipe/itm/28.jpg", description: "Crispy chickpea fritters served with tahini sauce." },
+  { id: "L29", name: "Shawarma", category: "Main Course", image: "/FoodRecipe/itm/29.jpg", description: "Grilled marinated meat wrapped in pita bread." },
+  { id: "L30", name: "Baklava", category: "Dessert", image: "/FoodRecipe/itm/30.jpg", description: "Layered pastry filled with nuts and sweet syrup." }
 ];
 
 const categories = ["All", "Main Course", "Dessert", "Snacks", "Starter"];

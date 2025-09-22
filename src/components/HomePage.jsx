@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChefHat, Search, Star, Users, Clock, X, Eye, EyeOff, Facebook, Twitter, Linkedin } from 'lucide-react';
 import ImageScroller from './ImageScroller';
@@ -17,6 +18,7 @@ const HomePage = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
   const [toast, setToast] = useState({ visible: false, type: 'success', message: '' });
+  const navigate = useNavigate();
 
   const showToast = (message, type = 'success') => {
     setToast({ visible: true, type, message });
@@ -70,7 +72,7 @@ const HomePage = () => {
               }
             } catch {}
           }
-          window.location.href = '/dashboard';
+          navigate('/dashboard');
         } else if (typeof response === 'string' && response.startsWith('401::')) {
           const msg = response.split('401::')[1] || 'Invalid email or password';
           setError(msg);

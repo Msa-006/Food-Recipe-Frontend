@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import HomePage from './components/HomePage';
 import Dashboard from './components/Dashboard';
@@ -31,11 +31,11 @@ function App() {
       </div>
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<RouteTransitionWrapper><HomePage /></RouteTransitionWrapper>} />
-          <Route path="/dashboard" element={<RouteTransitionWrapper><Dashboard /></RouteTransitionWrapper>} />
-          <Route path="/recipe/:id" element={<RouteTransitionWrapper><Cb /></RouteTransitionWrapper>} />
-          <Route path="/profile" element={<RouteTransitionWrapper><Profile /></RouteTransitionWrapper>} />
-          <Route path="/settings" element={<RouteTransitionWrapper><Settings /></RouteTransitionWrapper>} />
+          <Route index element={<RouteTransitionWrapper><HomePage /></RouteTransitionWrapper>} />
+          <Route path="dashboard" element={<RouteTransitionWrapper><Dashboard /></RouteTransitionWrapper>} />
+          <Route path="recipe/:id" element={<RouteTransitionWrapper><Cb /></RouteTransitionWrapper>} />
+          <Route path="profile" element={<RouteTransitionWrapper><Profile /></RouteTransitionWrapper>} />
+          <Route path="settings" element={<RouteTransitionWrapper><Settings /></RouteTransitionWrapper>} />
         </Routes>
       </AnimatePresence>
     </div>
